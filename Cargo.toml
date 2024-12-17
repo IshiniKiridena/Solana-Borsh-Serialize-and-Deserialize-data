@@ -1,0 +1,12 @@
+[package]
+name = "send_save_program_data"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+borsh = "0.9.3"
+borsh-derive = "0.9.1"
+solana-program = "1.10.2"
+
+[lib]
+crate-type = ["cdylib", "lib"]
